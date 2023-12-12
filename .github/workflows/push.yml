@@ -24,3 +24,5 @@ jobs:
     - name: check the jars
       run: |
         ls -la
+        cd build/libs
+        ls -la
